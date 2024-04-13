@@ -17,8 +17,6 @@ import React, { useState, useRef } from "react";
 function VideoEditor() {
   const [videoSrc, setVideoSrc] = useState(null);
   const videoRef = useRef(null);
-  const [startTime, setStartTime] = useState(0);
-  const [endTime, setEndTime] = useState(0);
   const [change, setchage] = useState(false);
 
   const handleFileChange = (e) => {
