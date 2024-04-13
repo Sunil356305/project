@@ -24,8 +24,7 @@ function VideoEditor() {
     if (file) {
       const url = URL.createObjectURL(file);
       setVideoSrc(url);
-      setStartTime(0);
-      setEndTime(0);
+    
     }
   };
 
