@@ -232,7 +232,7 @@ const Dashboard = () => {
           </div>
 
           <Link to = "/gh">
-          <img src={img2} className="mt-3 rounded-md" />
+          <img src={img2} className="mt-3 rounded-md" alt ="" />
           </Link>
           <span className=" capitilize ">project name</span>
         </div>
